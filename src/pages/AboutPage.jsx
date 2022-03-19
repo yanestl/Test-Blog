@@ -3,10 +3,10 @@ import About from '../components/About';
 
 const AboutPage = () => {
     return (
-        <div className='m-2'>
-            <h1>About Page</h1>
+        <section className='m-2'>
+            <h1 className='h1'>About us</h1>
             <About/>
-        </div>
+        </section>
     );
 };
 

@@ -10,7 +10,7 @@ const Navbars = () => {
   };
 
   return (
-    <header className="">
+    <header className="sticky-top">
       <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark" className="navbar-custom">
         <Container>
           <Navbar.Brand href="/">React Blog</Navbar.Brand>
