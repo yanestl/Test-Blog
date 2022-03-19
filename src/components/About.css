@@ -1,0 +1,18 @@
+/* composant ABOUT */
+.cAbout{
+    background-color: #fbf8f6;
+}
+
+img {
+    max-width: 50vh;
+    background-color: bisque;
+    margin: 0 2vw 0 2vw;
+
+    /* border-radius: 50%; */
+    border: 2px black solid;
+}
+
+
+.author-description {
+    border: 2px black solid;
+}
