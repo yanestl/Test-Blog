@@ -13,7 +13,7 @@ const ArticlePage = () => {
             articleService.load().then(() => setArticle(articleService.getById(Id)))
     }, [article, Id])
     return (
-        <section className="article">
+        <section className="list">
             <small className="text-muted">
                 <Link className="text-decoration-none" to={getLinkPath('home')}>Home</Link> &lt;
                 <Link className="text-decoration-none" to={getLinkPath('articles')}>Articles</Link> &lt; article

@@ -10,9 +10,9 @@ const MainTemplate = () => {
     return (
         <main className="app">
             <Navbar />
-            <Container className='main-min-height pt-3'>
+            {/* <Container className='main-min-height'> */}
                 <Outlet />
-            </Container>
+            {/* </Container> */}
             <Footer />
         </main>
 

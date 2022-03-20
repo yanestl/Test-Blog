@@ -3,8 +3,8 @@ import Contact from '../components/Contact';
 
 const ContactPage = () => {
     return (
-        <div className='m-2'>
-            <h1 className='h1'>Contact Page</h1>
+        <div>
+            {/* <h1 className='h1'>Contact Us</h1> */}
             <Contact />
         </div>
     );
